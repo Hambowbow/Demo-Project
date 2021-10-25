@@ -1,0 +1,23 @@
+.carousel {
+    height: 600px;
+}
+
+.carousel-inner, .carousel-item {
+height: 100%;
+
+}
+
+.carousel-item {
+    background-size: cover;
+}
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: unset;
+    right: unset;
+    background-color: white;
+    color: darkgray;
+    padding: 20rem, 30rem;
+
+}
